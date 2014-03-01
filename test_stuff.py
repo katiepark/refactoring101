@@ -10,6 +10,7 @@ class Candidate(object):
     def __init__(self, raw_name, party):
         self.raw_name = raw_name
         self.party = party
+        # This will create the last_name and first_name that we are testing
         self._parse_name()
 
     # Private method
